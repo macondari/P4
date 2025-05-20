@@ -1,2 +1,3 @@
 # P4
 ECE 250 project 4
+This C++ project implements a graph system using Node, Edge, and Graph classes. Nodes store identifiers, names, types, distances, and connections to other nodes via edge pointers. Edges represent weighted relationships between nodes. The Graph class manages nodes and dynamically allocated edges, supporting adding, updating, and deleting nodes and edges, as well as finding the longest path using a modified Dijkstra’s algorithm with a max-heap. The design ensures memory safety, avoids duplicates, and includes validation for lowercase-only identifiers using a custom exception class.
